@@ -19,7 +19,7 @@ public class LogoPanel extends JPanel {
 
     private void initLogoPanel() {
         try {
-            image = ImageIO.read(new File("resources/LOGO.png"));
+            image = ImageIO.read(new File("resources/LOGOSmall.png"));
         } catch (IOException e) {
             System.err.println("Load LogoPanel image error");
             e.printStackTrace();

@@ -20,7 +20,7 @@ public class GamePanel extends JPanel implements KeyListener{
         this.setLayout(new FlowLayout());
         this.setPreferredSize(new Dimension(width,hight));
             graphicGamePanel = new TetrisGraphicGamePanel(width, (int)(hight*10/12), 10, 20);
-            scorePanel = new ScorePanel((int) (width*0.6), hight*1/12);
+            scorePanel = new ScorePanel((int) (width*0.8), hight*1/12);
             scorePanel.setValueOfBestScore(ScoreFileProcessor.getInstance().getBestScore());
         this.add(graphicGamePanel);
         this.add(scorePanel);

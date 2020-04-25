@@ -10,8 +10,8 @@ import java.awt.*;
 
 public class MyFrame extends JFrame{
 
-    public final int WIDTH = 500;
-    public final int HIGHT = 1040;
+    public final int WIDTH = 300;
+    public final int HIGHT = 700;
 
 
     JPanel mainPanel;
